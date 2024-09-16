@@ -1,7 +1,9 @@
 import React from "react";
 
 const User = () => {
-  return <>user</>;
+  return <div>User
+    <input type="text"/>
+  </div>;
 };
 
 export default User;
