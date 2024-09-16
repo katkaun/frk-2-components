@@ -1,14 +1,17 @@
-import React from 'react'; 
-import User from './User';
-import Password from './Password';
+import React, { useState } from "react";
+import User from "./User";
+import Password from "./Password";
 
 const Login = () => {
-    return(
-        <div>
-        <User/>
-        <Password/>
-        </div>
-    )
-}
+    const [user, setUser] = useState('');
+    const [password, setPassword] = useState('');
+
+  return (
+    <div>
+      <User onUserChange={setUser}/>
+      <Password />
+    </div>
+  );
+};
 
 export default Login;

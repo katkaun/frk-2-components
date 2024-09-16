@@ -1,10 +1,8 @@
-import User from './User';
+import User from "./User";
 
-export default{
-    title: 'FRK/components/User',
-    component: User,
-}
+export default {
+  title: "FRK/components/User",
+  component: User,
+};
 
-export const Default = {
-    
-}
+export const Default = {};
